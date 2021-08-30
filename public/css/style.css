@@ -1,0 +1,203 @@
+
+
+/* card */
+body{
+    background:#FAFAFA;
+}
+.order-card {
+    color: #fff;
+}
+
+.bg-c-blue {
+    background: #7386d5;
+}
+
+.bg-c-green {
+    background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+}
+
+.bg-c-yellow {
+    background: linear-gradient(45deg,#FFB64D,#ffcb80);
+}
+
+.bg-c-pink {
+    background: linear-gradient(45deg,#FF5370,#ff869a);
+}
+
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    border: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+    padding: 25px;
+}
+
+.order-card i {
+    font-size: 26px;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+.w-70{
+    width: 70%;
+}
+.w-60{
+    width: 60%;
+}
+
+.w-40{
+    width: 40%;
+}
+.w-30{
+    width: 30%;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.p-r-16{
+    padding-right: 16px;
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url('../assets/background.jpg');
+    opacity: 0.8;
+    /* Add the blur effect */
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    -webkit-font-smoothing: subpixel-antialiased;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+  .bg-box {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+
+html,body {
+	height: 100%;
+}
+
+body.my-login-page {
+	background-color: #f7f9fb;
+	font-size: 14px;
+}
+
+.my-login-page .brand {
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 40px auto;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+	position: relative;
+	z-index: 1;
+}
+
+.my-login-page .brand img {
+	width: 100%;
+}
+
+.my-login-page .card-wrapper {
+	width: 400px;
+}
+
+.my-login-page .card {
+	border-color: transparent;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+
+.my-login-page .card.fat {
+	padding: 10px;
+}
+
+.my-login-page .card .card-title {
+	margin-bottom: 30px;
+}
+
+.my-login-page .form-control {
+	border-width: 2.3px;
+}
+
+.my-login-page .form-group label {
+	width: 100%;
+}
+
+.my-login-page .btn.btn-block {
+	padding: 12px 10px;
+}
+
+.my-login-page .footer {
+	margin: 40px 0;
+	color: #888;
+	text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+	.my-login-page .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.my-login-page .card.fat {
+		padding: 0;
+	}
+
+	.my-login-page .card.fat .card-body {
+		padding: 15px;
+	}
+}
+
+.link{
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+
+.white{
+    color: white;
+}
+
+.table-wrapper-scroll-y{
+    display: block;
+} 
+
+.scrollbar{
+    position: relative;
+    height: 200px;
+    overflow: auto;
+}
